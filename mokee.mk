@@ -1,8 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := GalaxyPlayer4.0
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MokeeOS stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/ypg1/full_ypg1.mk)
